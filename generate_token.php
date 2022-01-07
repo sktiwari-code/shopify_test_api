@@ -1,11 +1,11 @@
 <?php
 
 // Get our helper functions
-require_once("inc/functions.php");
+//require_once("inc/functions.php");
 
 // Set variables for our request
-$api_key = "1r30mrvCFMfq2DLGuIXyY2veEJVgTtDD";
-$shared_secret = "TBB5wltKarRtKn5mUVZck9RxHePNN6Jo";
+$api_key = "964feeefcee11ac893e9208742187a46";
+$shared_secret = "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";
 $params = $_GET; // Retrieve all request parameters
 $hmac = $_GET['hmac']; // Retrieve HMAC request parameter
 

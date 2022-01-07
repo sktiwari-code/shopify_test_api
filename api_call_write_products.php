@@ -4,8 +4,8 @@
 require_once("inc/functions.php");
 
 // Set variables for our request
-$shop = "demo-shop";
-$token = "SWplI7gKAckAlF9QfAvv9yrI3grYsSkw";
+$shop = "mymoodlecourse";
+$token = "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";
 $query = array(
 	"Content-type" => "application/json" // Tell Shopify that we're expecting a response in JSON format
 );
@@ -28,7 +28,7 @@ $modify_data = array(
 );
 
 // Run API call to modify the product
-$modified_product = shopify_call($token, $shop, "/admin/products/" . $product_id . ".json", $modify_data, 'PUT');
+//$modified_product = shopify_call($token, $shop, "/admin/products/" . $product_id . ".json", $modify_data, 'PUT');
 
 // Storage response
 $modified_product_response = $modified_product['response'];
