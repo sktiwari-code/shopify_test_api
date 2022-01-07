@@ -2,7 +2,7 @@
 
 // Set variables for our request
 $shop = $_GET['shop'];
-$api_key = "964feeefcee11ac893e9208742187a46";
+$api_key = "";
 $scopes = "read_orders,write_products,read_products";
 $redirect_uri = "http://localhost/shopify/generate_token.php";
 
