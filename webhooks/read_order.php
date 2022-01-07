@@ -1,5 +1,5 @@
 <?php
-define('SECRET_KEY','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');
+define('SECRET_KEY','');
 $response="";
 function verify_request($data,$hmac)
 {
