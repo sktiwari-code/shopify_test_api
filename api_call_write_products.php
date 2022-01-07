@@ -5,7 +5,7 @@ require_once("inc/functions.php");
 
 // Set variables for our request
 $shop = "mymoodlecourse";
-$token = "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";
+$token = "";
 $query = array(
 	"Content-type" => "application/json" // Tell Shopify that we're expecting a response in JSON format
 );
